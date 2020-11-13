@@ -1,14 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "client": "cd client && yarn start",
     "server": "nodemon index.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\"",
-    "start":"nodemon index.js"
+    "start": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
@@ -20,5 +19,7 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.13",
     "nodemon": "^2.0.6"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
