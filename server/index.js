@@ -15,7 +15,7 @@ app.use(cors());
 app.use('/posts', postRoutes) //added prefix to all routes in posts.js
 
 const CONNECTION_URL = "mongodb+srv://sallyaz:sallyaz123@cluster0.13vl5.azure.mongodb.net/Posts?retryWrites=true&w=majority";
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 5001;
 
 // set the connection to the DB
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true})
