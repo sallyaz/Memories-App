@@ -23,7 +23,7 @@ const Form = () => {
     const clear = () => {
 
     }
-    
+
     return (
       <Paper className={classes.paper}>
         <form
