@@ -12,7 +12,7 @@ const Post = ({ post }) => {
     <Card className={classes.card}>
       <CardMedia
         className={classes.media}
-        // image={post.selectedFile}
+        image={post.selectedFile}
         title={post.title}
       />
       <div className={classes.overlay}>
