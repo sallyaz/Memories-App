@@ -76,7 +76,7 @@ const Post = ({ post, setCurrentId }) => {
           color="primary"
           onClick={() => dispatch(deletePost(post._id))}
         >
-          <DeleteIcon fontSize="small" /> Delete
+          <DeleteIcon fontSize="small" /> Delete 
         </Button>
       </CardActions>
     </Card>
